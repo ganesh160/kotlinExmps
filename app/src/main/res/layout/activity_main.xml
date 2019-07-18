@@ -1,0 +1,25 @@
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/mImage_view"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+               android:layout_height="100dp"/>
+
+    <Button
+            android:id="@+id/capture_photo"
+            android:layout_width="match_parent"
+            android:text="capture Photo"
+            android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:id="@+id/delete_button"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
