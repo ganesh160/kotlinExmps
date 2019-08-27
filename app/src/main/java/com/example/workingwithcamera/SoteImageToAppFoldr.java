@@ -63,7 +63,6 @@ public class SoteImageToAppFoldr extends AppCompatActivity
             i.putExtra(MediaStore.EXTRA_OUTPUT, MyFileContentProvider.CONTENT_URI);
             startActivityForResult(i, CAMERA_RESULT);
         } else {
-
             Toast.makeText(getBaseContext(), "Camera is not available", Toast.LENGTH_LONG).show();
 
         }
